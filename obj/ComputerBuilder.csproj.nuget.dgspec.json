@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj": {}
+    "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj": {
+    "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj",
         "projectName": "ComputerBuilder",
-        "projectPath": "c:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -5,5 +5,9 @@ namespace ComputerBuilder {
         public ComputerDirector(IComputerBuilder builder) {
             this._builder = builder;
         }
+
+        public Computer construct() {
+            return this._builder.buildComputer();
+        }
     }
 }
