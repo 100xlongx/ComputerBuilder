@@ -7,26 +7,19 @@ namespace ComputerBuilder
         static void Main(string[] args)
         {
             GamingComputerBuilder gamingBuilder = new GamingComputerBuilder();
-            ComputerDirector gamingDirector = new ComputerDirector(gamingBuilder);
-
-            Computer gamingComputer = gamingDirector.construct();
-
-            Console.WriteLine(gamingComputer.ComputerString(gamingBuilder));
-
             DevelopmentComputerBuilder developmentBuilder = new DevelopmentComputerBuilder();
-            ComputerDirector developmentDirector = new ComputerDirector(developmentBuilder);
-
-            Computer devComputer = developmentDirector.construct();
-
-            Console.WriteLine(devComputer.ComputerString(developmentBuilder));
-
             CustomComputerBuilder customBuilder = new CustomComputerBuilder("Linux", "AMD", "Intel", 128, "HDD");
-            ComputerDirector customDirector = new ComputerDirector(customBuilder);
 
-            Computer customComputer = customDirector.construct();
+            BuildConsoleWriteLines("Gaming", gamingBuilder);
+            BuildConsoleWriteLines("Developer", developmentBuilder);
+            BuildConsoleWriteLines("Custom", customBuilder);
+        }
 
-            Console.WriteLine(customComputer.ComputerString(customBuilder));
+        static void BuildConsoleWriteLines(string computerType, IComputerBuilder builder){
+            ComputerDirector director = new ComputerDirector(builder);
+            Computer computer = director.construct();
 
+            Console.WriteLine($"{computerType}: Os={builder.Os} Graphics Card={builder.GraphicsCard} Cpu={builder.Cpu} Ram={builder.Ram} Storage={builder.Storage}");
         }
     }
 }
