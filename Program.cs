@@ -11,21 +11,21 @@ namespace ComputerBuilder
 
             Computer gamingComputer = gamingDirector.construct();
 
-            Console.WriteLine(gamingComputer.Ram);
+            Console.WriteLine(gamingComputer.ComputerString(gamingBuilder));
 
             DevelopmentComputerBuilder developmentBuilder = new DevelopmentComputerBuilder();
             ComputerDirector developmentDirector = new ComputerDirector(developmentBuilder);
 
             Computer devComputer = developmentDirector.construct();
 
-            Console.WriteLine(devComputer.Ram);
+            Console.WriteLine(devComputer.ComputerString(developmentBuilder));
 
             CustomComputerBuilder customBuilder = new CustomComputerBuilder("Linux", "AMD", "Intel", 128, "HDD");
             ComputerDirector customDirector = new ComputerDirector(customBuilder);
 
             Computer customComputer = customDirector.construct();
 
-            Console.WriteLine(customComputer.Ram);
+            Console.WriteLine(customComputer.ComputerString(customBuilder));
 
         }
     }

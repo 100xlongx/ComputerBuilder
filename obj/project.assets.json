@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj",
+      "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\BuilderPattern\\computerbuilder\\ComputerBuilder.csproj",
       "projectName": "ComputerBuilder",
-      "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj",
+      "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\BuilderPattern\\computerbuilder\\ComputerBuilder.csproj",
       "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\obj\\",
+      "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\BuilderPattern\\computerbuilder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"

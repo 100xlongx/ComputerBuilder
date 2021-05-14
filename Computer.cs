@@ -19,6 +19,16 @@ namespace ComputerBuilder
             this.Storage = storage;
         }
 
+        public string ComputerString(CustomComputerBuilder builder){
+            return builder.ComputerString();
+        }
+        public string ComputerString(DevelopmentComputerBuilder builder){
+            return builder.ComputerString();
+        }
+        public string ComputerString(GamingComputerBuilder builder){
+            return builder.ComputerString();
+        }
+
     }
 }
 

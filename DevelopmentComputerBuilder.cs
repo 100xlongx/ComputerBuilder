@@ -22,5 +22,10 @@ namespace ComputerBuilder {
         {
             return new Computer(this.Os, this.GraphicsCard, this.Cpu, this.Ram, this.Storage);
         }
+
+        public string ComputerString()
+        {
+            return $"Development Computer: Os={this.Os} GraphicsCard={this.GraphicsCard} Cpu={this.Cpu} Ram={this.Ram} Storage={this.Storage}";
+        }
     }
 }

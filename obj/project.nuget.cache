@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1RsZkEaULaopqp3cKMOZHdKxH6w0FX7oZE09VDRYBYT0NJUtNSMlsc2FEc8jcWZsdlTz0pook/xyHnB5aNtDCQ==",
+  "dgSpecHash": "gJ4Tla6/Qb1KLmNI2iR9k9jFS78vQZFw9Im2T7F7duoxv846qYeDNoLiEzqUZviD2kPTfKUdvPzXX3CwlSbwqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lntinfotech\\galvanize\\ComputerBuilder\\ComputerBuilder.csproj",
+  "projectFilePath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\BuilderPattern\\computerbuilder\\ComputerBuilder.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
